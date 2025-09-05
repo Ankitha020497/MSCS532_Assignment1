@@ -4,7 +4,6 @@ def insertion_sort_desc(arr):
         key = arr[i]
         j = i - 1
         print(f"\nInserting element {key} at index {i}")
-        print(f"\nInserting element at index {i} (value: {key})")
         while j >= 0 and arr[j] < key:
             print(f"  arr[{j+1}] = arr[{j}] (value: {arr[j]})")
             arr[j + 1] = arr[j]
