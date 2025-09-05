@@ -4,6 +4,8 @@ def insertion_sort_desc(arr):
         key = arr[i]
         j = i - 1
         print(f"\nInserting element {key} at index {i}")
+        print(f"\nInserting element at index {i} (value: {key})")
+
     print("\nSorting complete.")
 
 
