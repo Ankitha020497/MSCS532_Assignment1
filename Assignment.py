@@ -9,7 +9,7 @@ def insertion_sort_desc(arr):
             arr[j + 1] = arr[j]
             j -= 1
         arr[j + 1] = key
-
+        print(f"  Inserted at position {j+1}. Current array: {arr}")
 
     print("\nSorting complete.")
 
